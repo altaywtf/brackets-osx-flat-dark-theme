@@ -2,11 +2,11 @@
 Dark and flat style theme for Brackets. Created with color palette of iOS 7 and inspired by Flat Attack theme.
 
 ## Recommended Fonts
-Consolas (used in screenshots, 13px)
-Menlo
-Source Code Pro
-Monaco
-Myriad Pro
+Consolas (used in screenshots, 13px) <br>
+Menlo <br>
+Source Code Pro <br>
+Monaco <br>
+Myriad Pro <br>
 
 ## HTML
 ![HTML Screenshot](https://github.com/aydieneue/brackets-osx-flat-dark-theme/blob/master/ss/html.png)
