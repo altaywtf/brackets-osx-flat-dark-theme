@@ -1,0 +1,162 @@
+/* OS X Style - Flat & Dark theme, style file. */
+
+/* Color Settings */
+@background: #1F1F21;
+@foreground: #F7F7F7;
+
+@white: #FFFFFF;
+@black: #000;
+@gray: #8e8e93;
+
+@string: #FFDB4C;
+
+@ios_red: #FF3A2D;
+@ios_green: #4cd964;
+@ios_blue: #5ac8fa;
+
+@error: #dc322f;
+
+@matching: #D2D7D3;
+@search: #F4D03F;
+@search_match: #f6a644;
+@cursor: #EEEEEE;
+@white_space: #8E8E93;
+
+/* Code Styling */
+.CodeMirror,
+.CodeMirror-scroll {
+    background-color: @background;
+    color: @foreground;
+}
+
+.CodeMirror-focused .CodeMirror-activeline-background {
+    background: none;
+    border-top: 1px solid @gray;
+    border-bottom: 1px solid @gray;
+}
+
+.show-line-padding .CodeMirror-focused .CodeMirror-activeline-background {
+    box-shadow: inset 15px 0 0 0 @black;
+}
+
+.CodeMirror-focused .CodeMirror-activeline {
+    .CodeMirror-gutter-elt {
+        background: none;
+        color: @ios_blue;
+        border-top: 1px solid @gray;
+        border-bottom: 1px solid @gray;
+    }
+    .inline-widget .CodeMirror-gutter-elt {
+        color: #767676;
+    }
+}
+
+.cm-atom,
+.cm-string,
+.cm-string-2,
+.cm-hr {
+    color: @string;
+}
+
+.cm-number,
+.cm-attribute,
+.cm-plus {
+    color: @ios_red;
+}
+
+.cm-def,
+.cm-property {
+    color: @ios_green;
+}
+
+.cm-variable,
+.cm-variable-2,
+.cm-variable-3,
+.cm-operator,
+.cm-meta,
+.cm-bracket {
+    color: @foreground;
+}
+
+.cm-comment {
+    color: @gray;
+}
+
+.cm-error,
+.cm-minus {
+    color: @error;
+}
+
+.cm-header {
+    color: @ios_blue;
+}
+
+.cm-link {
+    color: #b77fdb;
+    text-decoration: none;
+}
+
+.cm-rangeinfo {
+    color: #6c71c4;
+}
+
+.cm-keyword,
+.cm-qualifier,
+.cm-builtin,
+.cm-tag,
+.cm-quote {
+    color: @ios_blue;
+}
+
+/* Extra CSS */
+.CodeMirror-searching {
+    background-color: @search;
+    &.searching-current-match {
+        background-color: @search_match;
+    }
+}
+
+.CodeMirror-cursor {
+    border-left: 1px solid @cursor !important;
+}
+
+.CodeMirror-gutters {
+    background-color: @background;
+    border-right: none;
+}
+
+.CodeMirror-linenumber {
+    color: @white;
+}
+
+.CodeMirror .CodeMirror-selected {
+    background: #333f48;
+}
+
+.CodeMirror-focused .CodeMirror-selected {
+    background: #34495e;
+}
+
+.CodeMirror-matchingbracket {
+    background-color: rgba(150,156,158, 0.4);
+    color: @white !important;
+}
+
+.CodeMirror-matchingtag {
+    background-color: rgba(150,156,158, 0.4);
+}
+
+.CodeMirror-overwrite .CodeMirror-cursor {
+    border-left: none !important;
+    border-bottom: 1px solid @white;
+}
+
+/* Non-editor styling */
+.image-view,
+.not-editor {
+    background-color: @background;
+}
+
+.view-pane .image-view {
+    color: @foreground;
+}
