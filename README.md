@@ -19,10 +19,10 @@ Myriad Pro <br>
 ![JQ Screenshot](https://github.com/aydieneue/brackets-osx-flat-dark-theme/blob/master/ss/jq.png)
 
 ## Installation
-1. Download .zip file or copy this code: https://github.com/aydieneue/brackets-osx-flat-dark-theme
+1. Open Brackets
 2. Open the Extension Manager
 3. Switch to "Themes" tab
-4. Drag .zip or paste the url to the area at the bottom.
+4. Search for "OS X Style - Flat & Dark"
 5. Click "Install"
 
 ## License
