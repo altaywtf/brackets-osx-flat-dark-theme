@@ -1,8 +1,9 @@
 # Brackets Theme: OS X Style Flat & Dark
-Dark and flat style theme for Brackets. Created with color palette of iOS 7 and inspired by Flat Attack theme.
+Dark and flat style theme for Brackets. Created with color palette of iOS 7.
 
 ## Recommended Fonts
 Consolas (used in screenshots, 13px) <br>
+Hack <br>
 Menlo <br>
 Source Code Pro <br>
 Monaco <br>
