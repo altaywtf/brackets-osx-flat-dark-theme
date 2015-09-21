@@ -2,13 +2,13 @@
     "name": "os-x-style-dark-theme",
     "title": "OS X Style - Flat & Dark",
     "description": "Dark and flat style theme for Brackets. Created with color palette of iOS 7.",
-    "homepage": "https://github.com/aydieneue/",
+    "homepage": "https://github.com/aydieneue/brackets-osx-flat-dark-theme",
     "version": "1.0.1",
     "author": "Altay Aydemir",
     "license": "MIT",
      "repository": {
         "type": "git",
-        "url": "https://github.com/aydieneue/brackets-osx-flat-dark-theme"
+        "url": "https://github.com/aydieneue/brackets-osx-flat-dark-theme.git"
     },
     "theme": {
         "file": "theme.less",
